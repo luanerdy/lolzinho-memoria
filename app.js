@@ -148,6 +148,7 @@ window.onload = () => {
  			card.addEventListener('click', flipCard);
  			grid.appendChild(card);
  		}
+ 		resultDisplay.textContent = '0';
  	}
 
  	function checkForMatch() {
