@@ -161,6 +161,7 @@ window.onload = () => {
 
 		cardArray = cardArray.sort(() => 0.5 - Math.random());
 
+		resultDisplay.textContent = '0';
  		cardsWon = [];
  	}
 
