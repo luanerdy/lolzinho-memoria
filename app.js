@@ -148,7 +148,18 @@ window.onload = () => {
  			card.addEventListener('click', flipCard);
  			grid.appendChild(card);
  		}
- 		resultDisplay.textContent = '0';
+
+ 		iconsArray = iconsArray.sort(() => 0.5 - Math.random());
+
+ 		for(let k = 0; k < 18; k++) {
+
+			cardArray.push(iconsArray[k]);
+			cardArray.push(iconsArray[k]);
+		}
+
+		cardArray = cardArray.sort(() => 0.5 - Math.random());
+
+ 		cardsWon = [];
  	}
 
  	function checkForMatch() {
