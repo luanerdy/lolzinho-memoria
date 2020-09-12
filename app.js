@@ -151,6 +151,8 @@ window.onload = () => {
 
  		iconsArray = iconsArray.sort(() => 0.5 - Math.random());
 
+ 		cardArray = [];
+
  		for(let k = 0; k < 18; k++) {
 
 			cardArray.push(iconsArray[k]);
