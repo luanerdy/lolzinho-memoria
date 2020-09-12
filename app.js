@@ -107,10 +107,12 @@ window.onload = () => {
 
  	let cardArray = [];
 	
-	for(let k = 0; k < 18; k++) {
+	for(let n = 0; n < 2; n++){
 
-		cardArray.push(iconsArray[k]);
-		cardArray.push(iconsArray[k]);
+ 		for(let k = 0; k < 18; k++) {
+
+			cardArray.push(iconsArray[k]);
+		}
 	}
 
 	cardArray = cardArray.sort(() => 0.5 - Math.random());
@@ -153,10 +155,12 @@ window.onload = () => {
 
  		cardArray = [];
 
- 		for(let k = 0; k < 18; k++) {
+ 		for(let n = 0; n < 2; n++){
 
-			cardArray.push(iconsArray[k]);
-			cardArray.push(iconsArray[k]);
+	 		for(let k = 0; k < 18; k++) {
+
+				cardArray.push(iconsArray[k]);
+			}
 		}
 
 		cardArray = cardArray.sort(() => 0.5 - Math.random());
